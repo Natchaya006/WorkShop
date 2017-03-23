@@ -23,6 +23,7 @@ header .header-content .header-content-inner h1 {
   margin-bottom: 0;
   text-transform: uppercase;
   font-size: 30px;
+  padding-top: 20px;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -38,7 +39,7 @@ header .header-content .header-content-inner p {
   padding-top: 20px;
 }
 header .header-content .header-content-inner img {
-  padding-top: 60px;
+  padding-top: 10px;
 }
 @media (min-width: 768px) {
   header {
@@ -59,6 +60,7 @@ header .header-content .header-content-inner img {
   }
   header .header-content .header-content-inner h1 {
     font-size: 50px;
+    padding-top: 20px;
   }
   header .header-content .header-content-inner p {
     font-size: 20px;
@@ -68,7 +70,7 @@ header .header-content .header-content-inner img {
     padding-top: 20px;
   }
   header .header-content .header-content-inner img {
-    padding-top: 60px;
+    padding-top: 10px;
   }
 }
 .section-heading{
