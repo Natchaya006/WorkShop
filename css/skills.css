@@ -1,0 +1,196 @@
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/skills.jpg');
+  color: white;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+}
+#cpl {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  margin-bottom: 10px;
+  align: left;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+#cpl {
+    font-size: 15px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align: left;
+  }
+.section-heading{
+  margin-top:0
+}
+#talk{
+  padding-top: 25px;
+}
+#code{
+  padding-top: 25px;
+}
+#web{
+  padding-top: 25px;
+}
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:5px;
+	box-shadow:1px 1px 0 0 #333333;
+	width:100%;
+	background:#43484E;
+	height:20px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+.skillbar-title-java {
+	position:absolute;
+	width:70%;
+	font-weight:bold;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFEC8B;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+.skillbar-title-c {
+	position:absolute;
+	width:25%;
+	font-weight:bold;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFEC8B;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+.skillbar-title-cc {
+	position:absolute;
+	width:25%;
+	font-weight:bold;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFEC8B;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+.skillbar-title-html-css {
+	position:absolute;
+	width:40%;
+	font-weight:bold;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFEC8B;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+.skillbar-title-php {
+	position:absolute;
+	width:70%;
+	font-weight:bold;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFEC8B;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+.skillbar-title-jqurey {
+	position:absolute;
+	width:10%;
+	font-weight:bold;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFEC8B;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+.skillbar-title-mysql {
+	position:absolute;
+	width:50%;
+	font-weight:bold;
+	font-size:10px;
+	color:#000000;
+	background-color:#FFEC8B;
+  height: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+.skillbar-title span {
+	float: none;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
+	text-align: left;
+	display:block;
+	background-color:#A52A2A;
+	padding:0 10px;
+	height:20px;
+	line-height:15px;
+}
+.skill-bar-percent {
+  padding-top: 8px;
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:10px;
+	height:15px;
+	line-height:7px;
+	color:#FFFFFF;
+}
