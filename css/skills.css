@@ -29,14 +29,6 @@ header .header-content .header-content-inner hr {
   border-width: 3px;
   max-width: 50px;
 }
-#cpl {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 15px;
-  margin-bottom: 10px;
-  align: left;
-  padding-top: 20px;
-}
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -58,29 +50,10 @@ header .header-content .header-content-inner hr {
     font-size: 50px;
   }
 }
-#cpl {
-    font-size: 15px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    align: left;
-  }
-.section-heading{
-  margin-top:0
-}
-#talk{
-  padding-top: 25px;
-}
-#code{
-  padding-top: 25px;
-}
-#web{
-  padding-top: 25px;
-}
 .skillbar {
 	position:relative;
 	display:block;
-	margin-bottom:5px;
+	margin-bottom:15px;
 	box-shadow:1px 1px 0 0 #333333;
 	width:100%;
 	background:#43484E;
