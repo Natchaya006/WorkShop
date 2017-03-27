@@ -19,9 +19,6 @@ header .header-content {
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 30px;
   color:white;
 }
@@ -72,6 +69,3 @@ header .header-content .header-content-inner p {
     border-radius: 80%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
-#image{
-  padding-bottom: 50px;
-}
